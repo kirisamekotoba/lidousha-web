@@ -32,8 +32,10 @@ export default function UserProfile() {
 
     const { content } = info;
     const name = content.name || "李豆沙";
-    // Fallback to UI Avatars if face is missing
-    const face = content.face || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random&size=200`;
+    // Fallback to UI Avatars if face is missing, but prefer local ldspicture.png if explicitly requested or face is null
+    // The user requested: "Avatar directly use ldspicture.png"
+    const basePath = window.location.pathname.includes('/lidousha-web') ? '/lidousha-web' : ''; // Re-declare basePath here for use in face
+    const face = basePath + "/ldspicture.png";
     const sign = content.sign || "Wait for the wind...";
     const level = content.level || 6;
 

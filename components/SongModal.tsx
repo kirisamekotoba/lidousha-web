@@ -8,10 +8,43 @@ interface SongModalProps {
     isOpen: boolean;
     onClose: () => void;
     onSave: (song: Song) => void;
+    onDelete?: (uid: string) => void;
     initialSong?: Song | null;
 }
 
-export default function SongModal({ isOpen, onClose, onSave, initialSong }: SongModalProps) {
+// Internal component for delete confirmation
+function DeleteButton({ onDelete }: { onDelete: () => void }) {
+    const [confirming, setConfirming] = useState(false);
+
+    useEffect(() => {
+        if (confirming) {
+            const timer = setTimeout(() => setConfirming(false), 3000);
+            return () => clearTimeout(timer);
+        }
+    }, [confirming]);
+
+    if (confirming) {
+        return (
+            <button
+                onClick={onDelete}
+                className="px-4 py-2 text-sm font-medium text-white bg-red-600 hover:bg-red-700 rounded-lg flex items-center gap-2 animate-pulse"
+            >
+                Confirm?
+            </button>
+        );
+    }
+
+    return (
+        <button
+            onClick={() => setConfirming(true)}
+            className="px-4 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg flex items-center gap-2"
+        >
+            Delete
+        </button>
+    );
+}
+
+export default function SongModal({ isOpen, onClose, onSave, onDelete, initialSong }: SongModalProps) {
     const [formData, setFormData] = useState<Song>({
         uid: '',
         song: '',
@@ -94,20 +127,25 @@ export default function SongModal({ isOpen, onClose, onSave, initialSong }: Song
                     </div>
                 </div>
 
-                <div className="px-6 py-4 bg-gray-50 dark:bg-gray-800/50 flex justify-end gap-3">
-                    <button
-                        onClick={onClose}
-                        className="px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
-                    >
-                        Cancel
-                    </button>
-                    <button
-                        onClick={() => onSave(formData)}
-                        className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center gap-2"
-                    >
-                        <Save size={16} />
-                        Save Song
-                    </button>
+                <div className="px-6 py-4 bg-gray-50 dark:bg-gray-800/50 flex justify-between gap-3">
+                    {initialSong && onDelete ? (
+                        <DeleteButton onDelete={() => onDelete(formData.uid)} />
+                    ) : <div></div>}
+                    <div className="flex gap-3">
+                        <button
+                            onClick={onClose}
+                            className="px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
+                        >
+                            Cancel
+                        </button>
+                        <button
+                            onClick={() => onSave(formData)}
+                            className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center gap-2"
+                        >
+                            <Save size={16} />
+                            Save Song
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
