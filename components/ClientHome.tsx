@@ -50,9 +50,11 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
     const { showToast } = useToast();
 
     const filteredSongs = useMemo(() => {
+        const lowerFilter = filter.toLowerCase();
         return songs.filter(song => {
-            const matchesSearch = song.song.toLowerCase().includes(filter.toLowerCase()) ||
-                song.singer.toLowerCase().includes(filter.toLowerCase());
+            const matchesSearch = song.song.toLowerCase().includes(lowerFilter) ||
+                song.singer.toLowerCase().includes(lowerFilter) ||
+                (song.notice && song.notice.toLowerCase().includes(lowerFilter));
             const matchesTag = selectedTag === '全部' || song.type.includes(selectedTag);
             return matchesSearch && matchesTag;
         });
@@ -169,14 +171,14 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                         className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm font-medium"
                     >
                         <Plus size={18} />
-                        Add Song
+                        添加歌曲
                     </button>
                     <button
                         onClick={handleDownloadJson}
                         className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors shadow-sm border border-gray-200 dark:border-gray-700 text-sm"
                     >
                         <Download size={16} />
-                        Export JSON
+                        导出 JSON
                     </button>
                     <button
                         onClick={() => setIsTipsOpen(true)}
@@ -194,7 +196,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                         <input
                             type="text"
-                            placeholder="Search songs or artists... (A-Z functionality limited for Chinese)"
+                            placeholder="搜索歌名、歌手或备注... (A-Z 按拼音排序)"
                             className="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
                             value={filter}
                             onChange={(e) => setFilter(e.target.value)}
@@ -284,7 +286,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                             <p>2. 想要被认知的话就多多聆听多多鼓起勇气和大熊猫说话吧！</p>
                             <p>3. 想要点歌直接古法发弹幕点歌就可以了。</p>
                             <p>4. 歌单只是主播唱过的歌，不担保主播在任何意义上还会唱。</p>
-                            <p>5. 本歌单是观众自发直播，一切可能的纠纷与主播无关。</p>
+                            <p>5. 本歌单是观众自发制作，一切可能的纠纷与主播无关。</p>
                         </div>
                         <div className="px-6 py-4 bg-gray-50 dark:bg-gray-800/50 flex justify-end">
                             <button
