@@ -36,7 +36,7 @@ export default function UserProfile() {
     // The user requested: "Avatar directly use ldspicture.png"
     const basePath = window.location.pathname.includes('/lidousha-web') ? '/lidousha-web' : ''; // Re-declare basePath here for use in face
     const face = basePath + "/ldspicture.png";
-    const sign = content.sign || "Wait for the wind...";
+    const sign = content.sign || "PSPLIVE所属虚拟熊猫! パンダ少女日々進化中！";
     const level = content.level || 6;
 
     return (
