@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lidousha Music Project
 
-## Getting Started
+A modernized version of [lidousha.top](https://lidousha.top), built with Next.js and Tailwind CSS.
 
-First, run the development server:
+## Deployment to GitHub Pages
+
+## Deployment to GitHub Pages
+
+I have installed the GitHub CLI (`gh`) for you. To deploy:
+
+1. Run `gh auth login` in your terminal.
+2. Follow the prompts:
+   - What account do you want to log into? **GitHub.com**
+   - What is your preferred protocol for Git operations? **HTTPS**
+   - Authenticate Git with your GitHub credentials? **Yes**
+   - How would you like to authenticate GitHub CLI? **Login with a web browser**
+3. Once logged in, run the following to create and push the repo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+gh repo create lidousha-web --public --source=. --remote=origin --push
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Go to your repository settings on GitHub -> Pages.
+5. Set the source to `GitHub Actions` (Next.js automatically creates the workflow).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+- Full song database (599 songs)
+- Instant search and filtering
+- Responsive design
