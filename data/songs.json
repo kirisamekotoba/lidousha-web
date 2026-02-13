@@ -1,0 +1,5403 @@
+[
+  {
+    "uid": "1",
+    "song": "12fanclub",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "2",
+    "song": "A song for You！You？You！！",
+    "singer": "lovelive",
+    "type": [
+      "偶像"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "3",
+    "song": "again",
+    "singer": "YUI",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "4",
+    "song": "And I'm home",
+    "singer": "喜多村英梨 & 野中蓝",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "5",
+    "song": "bad apple",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "6",
+    "song": "black shout",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "7",
+    "song": "blessing",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "8",
+    "song": "Brave Jewel",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "9",
+    "song": "butterfly",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "10",
+    "song": "calc",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "11",
+    "song": "cat food",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "12",
+    "song": "ch4nge",
+    "singer": "ギガP",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "13",
+    "song": "chase",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "14",
+    "song": "cool girl",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "15",
+    "song": "crossing field",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "16",
+    "song": "Daydream cafe",
+    "singer": "detit Rabbits",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "17",
+    "song": "daydream warrier",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "18",
+    "song": "daze",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "19",
+    "song": "DEEP BLUE TOWNへおいでよ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "20",
+    "song": "Don't say lazy",
+    "singer": "k-on",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "22",
+    "song": "envybaby",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "23",
+    "song": "Eutopia",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "24",
+    "song": "fly me to the Star",
+    "singer": "少女歌剧",
+    "type": [
+      "偶像"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "25",
+    "song": "give me five!",
+    "singer": "akb48/snh48",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "26",
+    "song": "god knows",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "27",
+    "song": "hectopascal",
+    "singer": "寿美菜子",
+    "type": [
+      "日文"
+    ],
+    "notice": "终将成为你ed"
+  },
+  {
+    "uid": "28",
+    "song": "Holiday∞Holiday",
+    "singer": ".",
+    "type": [
+      "元气"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "29",
+    "song": "honey",
+    "singer": "王心凌",
+    "type": [
+      "安静",
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "31",
+    "song": "ideal white",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "32",
+    "song": "Internet overdose",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "主播女孩重度依赖"
+  },
+  {
+    "uid": "33",
+    "song": "King",
+    "singer": "kanaria",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "34",
+    "song": "kira-kira sensationg",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "35",
+    "song": "Lemon",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "37",
+    "song": "Listen!!",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "38",
+    "song": "lost my music",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "40",
+    "song": "lukaluka fever night",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "41",
+    "song": "magnet",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "43",
+    "song": "my dearest",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "44",
+    "song": "my舞TONIGHT",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "45",
+    "song": "no thankyou",
+    "singer": "k-on",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "46",
+    "song": "oath sign",
+    "singer": "LiSA",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "47",
+    "song": "one last kiss",
+    "singer": "宇多田光",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "49",
+    "song": "only my railgun",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "52",
+    "song": "pre star",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "53",
+    "song": "pretender",
+    "singer": "Official髭男dism",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "55",
+    "song": "say so",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "56",
+    "song": "secret base",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "57",
+    "song": "snow halation",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "59",
+    "song": "Sparking Daydream",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "60",
+    "song": "Star Divine",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "61",
+    "song": "Storm in Lover",
+    "singer": "lovelive",
+    "type": [
+      "偶像"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "62",
+    "song": "summertime",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "64",
+    "song": "sweets parade",
+    "singer": "花泽香菜",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "65",
+    "song": "time lapse",
+    "singer": "Poppin'Party",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "66",
+    "song": "tiny stars",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "67",
+    "song": "tokimeki runners",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "68",
+    "song": "U&I",
+    "singer": "k-on",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "69",
+    "song": "Virtual to LIVE",
+    "singer": "Nijisanji & Virtuareal",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "71",
+    "song": "won(*3*)chukissme",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "72",
+    "song": "You are a ghost, I am a ghost",
+    "singer": "スタァライト九九組",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "73",
+    "song": "あいつら全員同窓会",
+    "singer": "ずっと真夜中でいいのに",
+    "type": [
+      "日文"
+    ],
+    "notice": "那些家伙们的校友会"
+  },
+  {
+    "uid": "74",
+    "song": "アイドル",
+    "singer": "yoasobi",
+    "type": [
+      "日文"
+    ],
+    "notice": "偶像"
+  },
+  {
+    "uid": "75",
+    "song": "アイロ二",
+    "singer": "majiko",
+    "type": [
+      "日文"
+    ],
+    "notice": "Irony"
+  },
+  {
+    "uid": "76",
+    "song": "あなたに出会わなければ夏雪冬花",
+    "singer": "Aimer",
+    "type": [
+      "日文"
+    ],
+    "notice": "夏雪冬花"
+  },
+  {
+    "uid": "77",
+    "song": "アニマル",
+    "singer": "DECO*27",
+    "type": [
+      "日文"
+    ],
+    "notice": "Animal"
+  },
+  {
+    "uid": "78",
+    "song": "あのね。",
+    "singer": "あれくん/『ユイカ』",
+    "type": [
+      "日文"
+    ],
+    "notice": "那个啊。"
+  },
+  {
+    "uid": "79",
+    "song": "アンコール",
+    "singer": "YOASOBI",
+    "type": [
+      "日文"
+    ],
+    "notice": "安可"
+  },
+  {
+    "uid": "80",
+    "song": "いけないボーダーライン",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "82",
+    "song": "インにシャル",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "83",
+    "song": "インフェルノ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "84",
+    "song": "ヴァンパイア",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "85",
+    "song": "ヴィラン",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "86",
+    "song": "うっせわ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "87",
+    "song": "うまぴょい伝説",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "88",
+    "song": "おじやま虫",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "89",
+    "song": "おジャ魔女カーニバル!!",
+    "singer": "MAHO堂",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "90",
+    "song": "おちゃめ機能",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": "天真烂漫机能"
+  },
+  {
+    "uid": "91",
+    "song": "お願い! シンデレラ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "哦内该辛德瑞拉"
+  },
+  {
+    "uid": "92",
+    "song": "かたおもい单相思",
+    "singer": "Aimer",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "93",
+    "song": "ギターと孤独と蒼い惑星",
+    "singer": "结束乐队",
+    "type": [
+      "日文"
+    ],
+    "notice": "吉他与孤独与蓝色星球"
+  },
+  {
+    "uid": "95",
+    "song": "こっち向いて Baby",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "96",
+    "song": "コネクト",
+    "singer": "Claris",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "97",
+    "song": "ごはんはおかず",
+    "singer": "k-on",
+    "type": [
+      "日文"
+    ],
+    "notice": "米饭是配菜"
+  },
+  {
+    "uid": "98",
+    "song": "これから",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "99",
+    "song": "さようなら、花泥棒さん",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": "再见偷花人"
+  },
+  {
+    "uid": "100",
+    "song": "サラマンダー",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "101",
+    "song": "サリシノハラ",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": "离去之原"
+  },
+  {
+    "uid": "102",
+    "song": "しゅわりん※どりーみん",
+    "singer": "Bang Dream",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "103",
+    "song": "スーサイドさかな",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "104",
+    "song": "ダーリンダンス",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "105",
+    "song": "だから僕は音楽を辞めた",
+    "singer": "ヨルシカ",
+    "type": [
+      "日文"
+    ],
+    "notice": "所以我放弃了音乐"
+  },
+  {
+    "uid": "106",
+    "song": "ダダダダ天使",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "哒哒哒哒天使、废柴天使"
+  },
+  {
+    "uid": "107",
+    "song": "ただ君に晴れ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "108",
+    "song": "たばこ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "109",
+    "song": "たぶん",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "110",
+    "song": "だんご大家族",
+    "singer": "茶太",
+    "type": [
+      "安静"
+    ],
+    "notice": "团子大家族"
+  },
+  {
+    "uid": "111",
+    "song": "ダンスロボットダンス",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "112",
+    "song": "だんだん早くなる",
+    "singer": "初音未来",
+    "type": [
+      "元气"
+    ],
+    "notice": "逐渐加快"
+  },
+  {
+    "uid": "113",
+    "song": "チカつとチカ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "114",
+    "song": "ちきゅう大爆発",
+    "singer": "P丸様",
+    "type": [
+      "元气"
+    ],
+    "notice": "地球大爆炸"
+  },
+  {
+    "uid": "115",
+    "song": "チルノのパーフェクトさんすう教室",
+    "singer": "IOSYS",
+    "type": [
+      "元气"
+    ],
+    "notice": "琪露诺的完美算术教室"
+  },
+  {
+    "uid": "116",
+    "song": "ティアドロップス",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "117",
+    "song": "デート·ア·ライフ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "118",
+    "song": "トウキョウ・シャンディ・ランデヴ",
+    "singer": "RiNG-O.Tune",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "119",
+    "song": "ときめきブローカー",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "120",
+    "song": "ドライフラワ",
+    "singer": "優里",
+    "type": [
+      "日文"
+    ],
+    "notice": "干花"
+  },
+  {
+    "uid": "122",
+    "song": "ねねね",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "123",
+    "song": "バラライカ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "124",
+    "song": "ハルジオン",
+    "singer": "YOASOBI",
+    "type": [
+      "日文"
+    ],
+    "notice": "春紫菀"
+  },
+  {
+    "uid": "125",
+    "song": "ハレ晴レユカイ",
+    "singer": "平野綾/茅原実里/後藤邑子",
+    "type": [
+      "日文"
+    ],
+    "notice": "晴天好心情"
+  },
+  {
+    "uid": "126",
+    "song": "ヒッチコック",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "127",
+    "song": "ヒトガタ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "128",
+    "song": "ヒバリ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "129",
+    "song": "ぴゅあぴゅあはーと",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "130",
+    "song": "ファンサ（fans）",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "131",
+    "song": "フォニイ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "132",
+    "song": "ふでべン",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "133",
+    "song": "フライングゲット",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "134",
+    "song": "フリージア",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "135",
+    "song": "ふわふわ♪",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "136",
+    "song": "ふわふわ時間",
+    "singer": "k-on",
+    "type": [
+      "日文"
+    ],
+    "notice": "滑滑蛋"
+  },
+  {
+    "uid": "137",
+    "song": "ベノム",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "138",
+    "song": "ミカヅキ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "139",
+    "song": "もってけ!セーラーふく",
+    "singer": "加藤英美里,平野綾,遠藤綾,福原香織",
+    "type": [
+      "日文"
+    ],
+    "notice": "拿去吧水手服"
+  },
+  {
+    "uid": "140",
+    "song": "ライオン",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "141",
+    "song": "ラブレター",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "142",
+    "song": "ルカルカ",
+    "singer": "巡音",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "143",
+    "song": "ルマ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "144",
+    "song": "ローリンガール",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": "rolling girl"
+  },
+  {
+    "uid": "145",
+    "song": "ロミオとシンデレラ",
+    "singer": "doriko/初音ミク",
+    "type": [
+      "日文"
+    ],
+    "notice": "罗密欧与灰姑娘"
+  },
+  {
+    "uid": "146",
+    "song": "ワールドイズマイン",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "147",
+    "song": "ワールドイズマイン",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": "世界第一公主殿下"
+  },
+  {
+    "uid": "148",
+    "song": "阿拉斯加海湾",
+    "singer": "蓝心羽",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "149",
+    "song": "阿司匹林",
+    "singer": "王以太",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "150",
+    "song": "爱的城堡",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "151",
+    "song": "爱的初体验",
+    "singer": "张震岳",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "152",
+    "song": "爱的飞行日记",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "153",
+    "song": "爱的洄游鱼",
+    "singer": "Snh48",
+    "type": [
+      "偶像"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "154",
+    "song": "爱的魔法",
+    "singer": "金莎",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "155",
+    "song": "爱啦啦",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "156",
+    "song": "爱你",
+    "singer": "王心凌",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "157",
+    "song": "爱丫爱丫",
+    "singer": "By2",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "158",
+    "song": "爱言葉Ⅳ",
+    "singer": "DECO*27",
+    "type": [
+      "日文"
+    ],
+    "notice": "爱言叶4"
+  },
+  {
+    "uid": "159",
+    "song": "愛してるバンザーイ",
+    "singer": "lovelive",
+    "type": [
+      "日文"
+    ],
+    "notice": "阿姨洗铁路板载/爱你万岁"
+  },
+  {
+    "uid": "160",
+    "song": "愛言葉 III",
+    "singer": "DECO*27",
+    "type": [
+      "日文"
+    ],
+    "notice": "爱言叶3"
+  },
+  {
+    "uid": "161",
+    "song": "安静",
+    "singer": "周杰伦",
+    "type": [
+      "安静"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "162",
+    "song": "八月的if",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "163",
+    "song": "白金ディスコ",
+    "singer": "井口裕香",
+    "type": [
+      "日文"
+    ],
+    "notice": "白金disco"
+  },
+  {
+    "uid": "164",
+    "song": "白金打吊针",
+    "singer": ".",
+    "type": [
+      "萌宠"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "165",
+    "song": "百变奶精",
+    "singer": ".",
+    "type": [
+      "萌宠"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "166",
+    "song": "宝贝",
+    "singer": "张悬",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "167",
+    "song": "本草纲目",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "168",
+    "song": "別の人の彼女になったよ",
+    "singer": "wacci",
+    "type": [
+      "日文"
+    ],
+    "notice": "成了别人的女朋友"
+  },
+  {
+    "uid": "169",
+    "song": "不得不爱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "170",
+    "song": "不愿让你一个人",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "171",
+    "song": "不醉不会",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "172",
+    "song": "彩虹",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "173",
+    "song": "彩虹的微笑",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "174",
+    "song": "残酷な天使のテーゼ",
+    "singer": "高桥洋子",
+    "type": [
+      "日文"
+    ],
+    "notice": "残酷天使纲领"
+  },
+  {
+    "uid": "175",
+    "song": "超级敏感",
+    "singer": "asoul",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "176",
+    "song": "朝你大跨捏一把",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "177",
+    "song": "成全",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "178",
+    "song": "赤伶",
+    "singer": "HITA",
+    "type": [
+      "古风"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "179",
+    "song": "虫儿飞",
+    "singer": "陈光荣",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "180",
+    "song": "初日",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "181",
+    "song": "创伤イノセンス",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "182",
+    "song": "春泥棒",
+    "singer": "ヨルシカ",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "183",
+    "song": "春情ロマンチック",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "184",
+    "song": "春夏秋冬",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "185",
+    "song": "匆匆那年",
+    "singer": ".",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "186",
+    "song": "错位时空",
+    "singer": "艾辰",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "187",
+    "song": "大眠",
+    "singer": "王心凌",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "188",
+    "song": "大声ダイヤモンド",
+    "singer": "AKB48",
+    "type": [
+      "偶像"
+    ],
+    "notice": "大声钻石"
+  },
+  {
+    "uid": "189",
+    "song": "大喜",
+    "singer": "泠鸢yousa",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "190",
+    "song": "大鱼",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "191",
+    "song": "大正浪漫",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "192",
+    "song": "带我走",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "193",
+    "song": "当你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "194",
+    "song": "倒带",
+    "singer": "蔡依林",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "195",
+    "song": "稻香",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "196",
+    "song": "帝国华击团",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "197",
+    "song": "第一天",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "198",
+    "song": "丁香花",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "199",
+    "song": "东京不太热",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "200",
+    "song": "东京夏日相会",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "201",
+    "song": "冬がくれた予感",
+    "singer": "lovelive",
+    "type": [
+      "日文"
+    ],
+    "notice": "冬天带给我的预感"
+  },
+  {
+    "uid": "202",
+    "song": "冬日",
+    "singer": "鞠婧祎",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "203",
+    "song": "冬之花",
+    "singer": "宫本浩次",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "205",
+    "song": "发如雪",
+    "singer": ".",
+    "type": [
+      "古风",
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "206",
+    "song": "反方向的钟",
+    "singer": "周杰伦",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "207",
+    "song": "房间",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "208",
+    "song": "放空",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "209",
+    "song": "緋色月下、狂咲ノ絶",
+    "singer": "nayuta",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "210",
+    "song": "分手快乐",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "211",
+    "song": "風になる",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "成为风"
+  },
+  {
+    "uid": "212",
+    "song": "腐草为萤",
+    "singer": ".",
+    "type": [
+      "古风"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "213",
+    "song": "干杯",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "214",
+    "song": "干物妹",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "215",
+    "song": "告白气球",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "216",
+    "song": "告白日和",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "217",
+    "song": "告白予行練習",
+    "singer": "户松遥",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "218",
+    "song": "搁浅",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "219",
+    "song": "歌に形がないけれど",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "220",
+    "song": "歌舞伎町的女王",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "221",
+    "song": "给你一瓶魔法药水",
+    "singer": "告五人",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "222",
+    "song": "给我一个理由忘记",
+    "singer": "黄丽玲",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "223",
+    "song": "给我一首歌的时间",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "224",
+    "song": "勾指起誓",
+    "singer": "洛天依",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "225",
+    "song": "孤独患者",
+    "singer": "陈奕迅",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "226",
+    "song": "孤勇者",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "227",
+    "song": "怪物",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "228",
+    "song": "光",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "229",
+    "song": "光と闇",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "230",
+    "song": "光るなら",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "231",
+    "song": "光之轨迹",
+    "singer": "Snh48",
+    "type": [
+      "偶像"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "232",
+    "song": "过火",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "233",
+    "song": "还是你的笑容最可爱",
+    "singer": "泠鸢yousa",
+    "type": [
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "234",
+    "song": "海底",
+    "singer": "一只榴莲",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "235",
+    "song": "海海海",
+    "singer": "阿悄",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "236",
+    "song": "海色",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "237",
+    "song": "海芋恋",
+    "singer": "萧敬腾",
+    "type": [
+      "甜歌",
+      "安静"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "238",
+    "song": "好き！ゆき！本気マジック",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "239",
+    "song": "好きだから",
+    "singer": "ユイカ",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "240",
+    "song": "好想爱这个世界",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "241",
+    "song": "合理失控",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "242",
+    "song": "黒猫はタンゴ",
+    "singer": "大桥望美",
+    "type": [
+      "日文"
+    ],
+    "notice": "黑猫的探戈"
+  },
+  {
+    "uid": "244",
+    "song": "红莲华",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "245",
+    "song": "红玫瑰",
+    "singer": "陈奕迅",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "246",
+    "song": "红色高跟鞋",
+    "singer": ".",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "247",
+    "song": "虹色梦想",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "248",
+    "song": "蝴蝶泉边",
+    "singer": "黄莉雅",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "249",
+    "song": "琥珀的身体",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "250",
+    "song": "花に亡灵",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "251",
+    "song": "花ハ踊レヤいろはにほ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "252",
+    "song": "花太阳彩虹你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "253",
+    "song": "花园舞曲",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "254",
+    "song": "花月成双",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "255",
+    "song": "花之塔",
+    "singer": "さユり",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "256",
+    "song": "坏女孩",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "257",
+    "song": "幻化成风",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "258",
+    "song": "輝夜の城で踊りたい",
+    "singer": "lovelive",
+    "type": [
+      "日文"
+    ],
+    "notice": "欲于辉夜城中起舞"
+  },
+  {
+    "uid": "259",
+    "song": "回る空うさぎ",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": "月兔回旋于空中"
+  },
+  {
+    "uid": "260",
+    "song": "魂のルフラン",
+    "singer": "高桥洋子",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "261",
+    "song": "活动小丑",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "262",
+    "song": "极乐净土",
+    "singer": "GAENiDELiA",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "263",
+    "song": "寄り酔い",
+    "singer": "和ぬか",
+    "type": [
+      "日文"
+    ],
+    "notice": "倚醉"
+  },
+  {
+    "uid": "264",
+    "song": "寄明月",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "265",
+    "song": "佳人",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "266",
+    "song": "嘉宾",
+    "singer": "张远",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "267",
+    "song": "简单爱",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "268",
+    "song": "江南",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "269",
+    "song": "睫毛弯弯",
+    "singer": ".",
+    "type": [
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "270",
+    "song": "姐姐",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "271",
+    "song": "姐就是女王",
+    "singer": ".",
+    "type": [
+      "萌宠"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "272",
+    "song": "戒烟",
+    "singer": "李荣浩",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "273",
+    "song": "届かない恋",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "274",
+    "song": "金曜日のおはよう",
+    "singer": "锁那",
+    "type": [
+      "日文"
+    ],
+    "notice": "星期五的早安"
+  },
+  {
+    "uid": "275",
+    "song": "锦鲤抄",
+    "singer": "银临",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "276",
+    "song": "禁忌的边界线",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "277",
+    "song": "禁忌的二人",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "278",
+    "song": "啾！吸血鬼女孩",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "279",
+    "song": "酒醉的蝴蝶",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "280",
+    "song": "就差一点点",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "281",
+    "song": "就让这大雨全都落下",
+    "singer": "容祖儿",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "282",
+    "song": "菊花台",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "283",
+    "song": "绝世舞姬",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "284",
+    "song": "倔强",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "285",
+    "song": "君にふれて",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "286",
+    "song": "君の知らない物語",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "君所不知道的物语"
+  },
+  {
+    "uid": "287",
+    "song": "开心往前飞",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "288",
+    "song": "可愛くてごめん",
+    "singer": "HoneyWorks",
+    "type": [
+      "甜歌"
+    ],
+    "notice": "我这么可爱真是抱歉"
+  },
+  {
+    "uid": "289",
+    "song": "可愛くなりたい",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "290",
+    "song": "可惜不是你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "291",
+    "song": "克卜勒",
+    "singer": "孙燕姿",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "292",
+    "song": "刻在我心底的名字",
+    "singer": "卢广仲",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "293",
+    "song": "客官不可以",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "294",
+    "song": "空白格",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "295",
+    "song": "空空如也",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "296",
+    "song": "空想神话",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "297",
+    "song": "快乐崇拜",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "298",
+    "song": "快乐合成器",
+    "singer": ".",
+    "type": [
+      "元气"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "299",
+    "song": "快乐手账",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "300",
+    "song": "快乐星猫",
+    "singer": "牛奶咖啡",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "301",
+    "song": "兰亭序",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "302",
+    "song": "浪费",
+    "singer": "林宥嘉",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "303",
+    "song": "涙そうそう",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "304",
+    "song": "离开地球表面",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "305",
+    "song": "里表情人",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "306",
+    "song": "历历万乡",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "307",
+    "song": "立ち上がれ",
+    "singer": "wake up girls",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "308",
+    "song": "莉莉安",
+    "singer": "宋冬野",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "309",
+    "song": "恋",
+    "singer": "星野源",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "310",
+    "song": "恋の2-4-11",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "311",
+    "song": "恋爱ing",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "312",
+    "song": "恋爱裁判",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "313",
+    "song": "恋爱告急",
+    "singer": "鞠婧祎",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "314",
+    "song": "恋爱困难少女",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "315",
+    "song": "恋爱幸运曲奇",
+    "singer": ".",
+    "type": [
+      "偶像",
+      "元气"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "316",
+    "song": "恋爱循环",
+    "singer": "花泽香菜",
+    "type": [
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "317",
+    "song": "恋人未满",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "318",
+    "song": "恋之魔球",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "319",
+    "song": "淋雨一直走",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "320",
+    "song": "六兆年一夜物语",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "321",
+    "song": "龙卷风",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "322",
+    "song": "庐州月",
+    "singer": "许嵩",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "323",
+    "song": "庐州月",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "324",
+    "song": "炉心融解",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "325",
+    "song": "轮舞",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "326",
+    "song": "旅行的意义",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "327",
+    "song": "旅之途中",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "328",
+    "song": "绿光",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "329",
+    "song": "绿色",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "330",
+    "song": "麻烦鬼2",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "331",
+    "song": "慢冷",
+    "singer": "萧煌奇",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "332",
+    "song": "芒种",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "333",
+    "song": "冒险でしょでしょ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "334",
+    "song": "没离开过",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "335",
+    "song": "玫瑰少年",
+    "singer": "蔡依林",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "336",
+    "song": "美しき者",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "337",
+    "song": "门没锁",
+    "singer": "品冠",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "338",
+    "song": "梦的光点",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "339",
+    "song": "梦想的旗帜",
+    "singer": "Snh48",
+    "type": [
+      "偶像"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "340",
+    "song": "夢をかなえてドラえもん",
+    "singer": "もお",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "341",
+    "song": "迷迭香",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "342",
+    "song": "秒針を噛む",
+    "singer": "真夜中",
+    "type": [
+      "日文"
+    ],
+    "notice": "咬住秒针"
+  },
+  {
+    "uid": "343",
+    "song": "名前のない怪物",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "无名的怪物"
+  },
+  {
+    "uid": "344",
+    "song": "命に嫌われている",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "345",
+    "song": "牡丹江",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "346",
+    "song": "霓虹泡泡",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "347",
+    "song": "霓虹甜心",
+    "singer": "马赛克",
+    "type": [
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "348",
+    "song": "你的甜蜜",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "349",
+    "song": "你的微笑",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "350",
+    "song": "你就不要想起我",
+    "singer": "田馥甄",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "351",
+    "song": "你吻了我这件小事",
+    "singer": "孟慧圆",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "352",
+    "song": "你要的全拿走",
+    "singer": "胡彦斌",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "353",
+    "song": "年轮",
+    "singer": "张碧晨",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "354",
+    "song": "鳥の詩",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "鸟之诗"
+  },
+  {
+    "uid": "355",
+    "song": "暖暖",
+    "singer": "梁静茹",
+    "type": [
+      "安静",
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "356",
+    "song": "泡沫、哀のまぼろば",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "357",
+    "song": "陪你度过漫长的岁月",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "358",
+    "song": "漂洋过海来看你",
+    "singer": "李宗盛",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "359",
+    "song": "破灭的纯情",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "360",
+    "song": "僕の死のうと思ったのは",
+    "singer": "中岛美嘉",
+    "type": [
+      "日文"
+    ],
+    "notice": "我也曾想一了百了"
+  },
+  {
+    "uid": "361",
+    "song": "僕らの手には何もないけど",
+    "singer": "RAM WIRE",
+    "type": [
+      "日文"
+    ],
+    "notice": "虽然我们手中空无一物"
+  },
+  {
+    "uid": "362",
+    "song": "僕らは今のなかで",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "363",
+    "song": "普通disco",
+    "singer": "洛天依/言和",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "364",
+    "song": "七里香",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "365",
+    "song": "麒麟",
+    "singer": "早安",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "366",
+    "song": "起风了",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "367",
+    "song": "千里邀月",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "368",
+    "song": "千年食谱颂",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "369",
+    "song": "千年之恋",
+    "singer": "F.I.R",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "370",
+    "song": "牵丝戏",
+    "singer": "银临",
+    "type": [
+      "古风"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "371",
+    "song": "前しか向かねえ",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "372",
+    "song": "前辈",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "373",
+    "song": "前前前世",
+    "singer": "RADWIMPS",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "374",
+    "song": "青花瓷",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "375",
+    "song": "青空のラプソディ",
+    "singer": "fhána",
+    "type": [
+      "日文"
+    ],
+    "notice": "青空狂想曲（舅舅爷）"
+  },
+  {
+    "uid": "376",
+    "song": "青柠",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "377",
+    "song": "情非得已",
+    "singer": "庾澄庆",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "378",
+    "song": "情歌",
+    "singer": "梁静茹",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "379",
+    "song": "晴天",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "380",
+    "song": "群青",
+    "singer": "YOASOBI",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "381",
+    "song": "热爱105°C的你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "382",
+    "song": "人鱼",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "383",
+    "song": "如果的事",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "384",
+    "song": "如果我成为大统领",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "385",
+    "song": "三原色",
+    "singer": "yoasobi",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "386",
+    "song": "珊瑚海",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "387",
+    "song": "闪光",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "388",
+    "song": "少女たちの终",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "389",
+    "song": "深爱",
+    "singer": "水树奈奈",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "390",
+    "song": "深海少女",
+    "singer": "初音未来",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "391",
+    "song": "神っぼいな",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "392",
+    "song": "神のまにまに",
+    "singer": "初音ミク/鏡音リン/GUMI/れるりり",
+    "type": [
+      "日文"
+    ],
+    "notice": "神的随波逐流"
+  },
+  {
+    "uid": "393",
+    "song": "圣诞结",
+    "singer": "陈奕迅",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "394",
+    "song": "失恋阵线联盟",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "395",
+    "song": "失眠飞行",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "396",
+    "song": "食虫植物",
+    "singer": "理芽",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "397",
+    "song": "世界は恋に落ちている",
+    "singer": "CHiCO",
+    "type": [
+      "日文"
+    ],
+    "notice": "我的世界已经坠入爱河"
+  },
+  {
+    "uid": "398",
+    "song": "帅特日记",
+    "singer": ".",
+    "type": [
+      "萌宠",
+      "元气"
+    ],
+    "notice": "帅t日记"
+  },
+  {
+    "uid": "399",
+    "song": "霜雪千年",
+    "singer": "洛天依/乐正绫",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "400",
+    "song": "水星记",
+    "singer": "郭顶",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "401",
+    "song": "瞬き",
+    "singer": "back number",
+    "type": [
+      "日文"
+    ],
+    "notice": "瞬间"
+  },
+  {
+    "uid": "402",
+    "song": "说爱你",
+    "singer": "蔡依林",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "403",
+    "song": "说谎",
+    "singer": "林宥嘉",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "404",
+    "song": "说散就散",
+    "singer": "袁娅维",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "405",
+    "song": "私、アイドル宣言",
+    "singer": "CHiCO",
+    "type": [
+      "日文"
+    ],
+    "notice": "偶像宣言"
+  },
+  {
+    "uid": "406",
+    "song": "酸酸甜甜就是我",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "407",
+    "song": "太阳系disco",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "408",
+    "song": "太陽曰く燃えよカオス",
+    "singer": "阿澄佳奈、松来未佑、大坪由佳",
+    "type": [
+      "日文"
+    ],
+    "notice": "太阳说燃烧吧混沌"
+  },
+  {
+    "uid": "409",
+    "song": "桃花旗袍",
+    "singer": "赖伟康",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "410",
+    "song": "桃花笑",
+    "singer": "言和/乐正绫",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "411",
+    "song": "桃色片想い",
+    "singer": "松浦亜弥",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "412",
+    "song": "体面",
+    "singer": "于文文",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "413",
+    "song": "天使にふれたよ",
+    "singer": "放課後ティータイム",
+    "type": [
+      "日文"
+    ],
+    "notice": "相遇天使"
+  },
+  {
+    "uid": "414",
+    "song": "天使的圈套",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "415",
+    "song": "天下トーイツAとZ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": "A to Z"
+  },
+  {
+    "uid": "416",
+    "song": "天真有邪",
+    "singer": "林宥嘉",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "417",
+    "song": "甜甜的",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "418",
+    "song": "突然好想你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "419",
+    "song": "徒花ネクロマンサー",
+    "singer": "フランシュシュ",
+    "type": [
+      "日文"
+    ],
+    "notice": "徒花"
+  },
+  {
+    "uid": "420",
+    "song": "外婆桥",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "421",
+    "song": "丸之内虐待狂",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "422",
+    "song": "万有引力",
+    "singer": "汪苏泷",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "423",
+    "song": "妄想感伤代偿联盟",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "424",
+    "song": "妄想税",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "425",
+    "song": "危险派对",
+    "singer": "王以太",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "426",
+    "song": "微熱からのmystory",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "427",
+    "song": "未熟DREAMER",
+    "singer": "Aqours",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "428",
+    "song": "温柔",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "429",
+    "song": "我不难过",
+    "singer": "孙燕姿",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "430",
+    "song": "我的悲伤是水做的",
+    "singer": "洛天依",
+    "type": [
+      "甜歌",
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "431",
+    "song": "我多喜欢你你会知道",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "432",
+    "song": "我好想你",
+    "singer": "苏打绿",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "433",
+    "song": "我怀念的",
+    "singer": "孙燕姿",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "434",
+    "song": "我又初恋了",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "435",
+    "song": "屋顶",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "436",
+    "song": "无与伦比的美丽",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "437",
+    "song": "夕景イエスタデイ",
+    "singer": "じん",
+    "type": [
+      "日文"
+    ],
+    "notice": "夕景昨日"
+  },
+  {
+    "uid": "438",
+    "song": "喜剧",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "439",
+    "song": "下课铃声",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "440",
+    "song": "下雨天",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "441",
+    "song": "夏のどーん",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "442",
+    "song": "夏天的风",
+    "singer": "温岚",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "443",
+    "song": "相遇天使",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "444",
+    "song": "香水",
+    "singer": "五月天",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "445",
+    "song": "想和你迎着台风去看海",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "446",
+    "song": "像笨蛋一样",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "447",
+    "song": "硝子の花園",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "448",
+    "song": "小さな恋のうた",
+    "singer": "新垣结衣",
+    "type": [
+      "日文"
+    ],
+    "notice": "小小恋歌"
+  },
+  {
+    "uid": "449",
+    "song": "小城夏天",
+    "singer": ".",
+    "type": [
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "450",
+    "song": "小城谣",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "451",
+    "song": "小情歌",
+    "singer": ".",
+    "type": [
+      "安静",
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "452",
+    "song": "小手拉大手",
+    "singer": "梁静茹",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "453",
+    "song": "小幸运",
+    "singer": "允儿",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "454",
+    "song": "晓の车",
+    "singer": "南里侑香",
+    "type": [
+      "日文"
+    ],
+    "notice": "晓之车"
+  },
+  {
+    "uid": "455",
+    "song": "笑颜百景",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "456",
+    "song": "心的旅程",
+    "singer": "Snh48",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "457",
+    "song": "心跳的证明",
+    "singer": "刘人语",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "458",
+    "song": "心愿便利贴",
+    "singer": "元若蓝",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "459",
+    "song": "心做し",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "460",
+    "song": "星间飞行",
+    "singer": "初音未来",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "461",
+    "song": "星空",
+    "singer": "五月天",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "462",
+    "song": "星座になれたら",
+    "singer": "结束乐队",
+    "type": [
+      "日文"
+    ],
+    "notice": "若能化作星座"
+  },
+  {
+    "uid": "463",
+    "song": "修炼爱情",
+    "singer": "林俊杰",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "464",
+    "song": "虚拟",
+    "singer": "陈粒",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "465",
+    "song": "眩しいdnaだけ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "466",
+    "song": "学猫叫",
+    "singer": "小潘潘",
+    "type": [
+      "萌宠"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "467",
+    "song": "血腥爱情故事",
+    "singer": "张惠妹",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "468",
+    "song": "烟草",
+    "singer": "ゆう十",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "469",
+    "song": "言って",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "470",
+    "song": "演员",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "471",
+    "song": "艳火",
+    "singer": "张悬",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "472",
+    "song": "要抱抱",
+    "singer": ".",
+    "type": [
+      "萌宠"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "473",
+    "song": "夜に駆ける",
+    "singer": "yoasobi",
+    "type": [
+      "日文"
+    ],
+    "notice": "向夜晚奔去"
+  },
+  {
+    "uid": "474",
+    "song": "一半一半",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "475",
+    "song": "一个像夏天一个像冬天",
+    "singer": "范玮琪",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "476",
+    "song": "一口气全念对",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "477",
+    "song": "一路向北",
+    "singer": "周杰伦",
+    "type": [
+      "苦情"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "478",
+    "song": "一心向前",
+    "singer": "snh48",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "479",
+    "song": "一直很安静",
+    "singer": "阿桑",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "480",
+    "song": "乙女解剖",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "481",
+    "song": "易燃易爆炸",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "482",
+    "song": "音阶圆舞曲",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "483",
+    "song": "隐形的翅膀",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "484",
+    "song": "拥抱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "485",
+    "song": "永不失联的爱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "486",
+    "song": "踊",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "487",
+    "song": "忧郁的心情",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "488",
+    "song": "優しい彗星",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "489",
+    "song": "有点甜",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "490",
+    "song": "有何不可",
+    "singer": "许嵩",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "491",
+    "song": "雨爱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "492",
+    "song": "遇到",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "493",
+    "song": "遇见",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "494",
+    "song": "园游会",
+    "singer": "周杰伦",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "495",
+    "song": "远辰",
+    "singer": "陈粒",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "496",
+    "song": "月牙湾",
+    "singer": "F.I.R",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "497",
+    "song": "再生赞美曲",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "498",
+    "song": "在你的婚礼我多喝了两杯",
+    "singer": "Mr.Miss",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "499",
+    "song": "在树上唱歌",
+    "singer": "郭静",
+    "type": [
+      "安静",
+      "甜歌"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "500",
+    "song": "在雾里",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "501",
+    "song": "上春山",
+    "singer": "魏晨、魏大勋、白敬亭",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "502",
+    "song": "123睦头人",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "503",
+    "song": "EXPOSE 'Burn out!!!",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "504",
+    "song": "Fans",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "505",
+    "song": "GYB!!",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "506",
+    "song": "Just Be Friends",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "507",
+    "song": "Neo-Aspect",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "508",
+    "song": "Nonfiction",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "509",
+    "song": "PONPONPON",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "510",
+    "song": "Rolling girl",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "511",
+    "song": "STARTDASH!!",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "512",
+    "song": "sunny day song",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "513",
+    "song": "カワキヲアメク",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "514",
+    "song": "きゅんっ!ヴァンパイアガール",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "515",
+    "song": "シル?ヴ?プレジデント",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "516",
+    "song": "パンダヒーロー",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "517",
+    "song": "ヒロイン育成計画",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "518",
+    "song": "わたしの一番かわいいところ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "519",
+    "song": "爱恨的泪",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "520",
+    "song": "爱就一个字",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "521",
+    "song": "暗恋是一个人的事情",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "522",
+    "song": "半糖主义",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "523",
+    "song": "笨",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "524",
+    "song": "不怕",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "525",
+    "song": "残響散歌",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "526",
+    "song": "忏悔录",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "527",
+    "song": "春日影",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "528",
+    "song": "純愛のクレッシェンド",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "529",
+    "song": "单相思",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "530",
+    "song": "地球大爆炸",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "531",
+    "song": "干花",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "532",
+    "song": "红尘客栈",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "533",
+    "song": "红颜如霜",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "534",
+    "song": "紅蓮華",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "535",
+    "song": "后会无期",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "536",
+    "song": "花ざがりWeekend",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "537",
+    "song": "会いたかった",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "538",
+    "song": "加油鸭",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "539",
+    "song": "可爱わたしの一番かわいいところ",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "540",
+    "song": "离去之原",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "541",
+    "song": "恋するフォーチュンクッキー",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "542",
+    "song": "恋になりたいAQUARIUM",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "543",
+    "song": "恋爱中的美人鱼",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "544",
+    "song": "恋愛裁判",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "545",
+    "song": "流星群",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "546",
+    "song": "旅の途中",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "547",
+    "song": "马德里不可思议",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "548",
+    "song": "玫瑰花的葬礼",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "549",
+    "song": "梦想之门",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "550",
+    "song": "梦与星光的海上",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "551",
+    "song": "魔术先生",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "552",
+    "song": "莫名其妙爱上你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "553",
+    "song": "母系社会",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "554",
+    "song": "目标是宝可梦大师",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "555",
+    "song": "你曾是少年",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "556",
+    "song": "逆光",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "557",
+    "song": "年轮说",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "558",
+    "song": "牛仔很忙",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "559",
+    "song": "女主角育成计划",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "560",
+    "song": "欧若拉",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "561",
+    "song": "陪你度过漫长岁月",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "562",
+    "song": "偏爱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "563",
+    "song": "琪露诺的完美算术教室",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "564",
+    "song": "晴天好心情",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "565",
+    "song": "秋绪",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "566",
+    "song": "全是爱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "567",
+    "song": "人间规则",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "568",
+    "song": "人生态度",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "569",
+    "song": "如果当时",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "570",
+    "song": "如果我成为大头李",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "571",
+    "song": "如烟",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "572",
+    "song": "色は匂へど散りぬるを",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "573",
+    "song": "身骑白马",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "574",
+    "song": "深海之声",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "575",
+    "song": "神的随波逐流",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "576",
+    "song": "神魂颠倒",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "577",
+    "song": "世界第一的公主殿下",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "578",
+    "song": "世界上的另一个我",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "579",
+    "song": "说好的幸福呢",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "580",
+    "song": "塑料爱",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "581",
+    "song": "天ノ弱",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "582",
+    "song": "天后",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "583",
+    "song": "天晴了",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "584",
+    "song": "听妈妈的话",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "585",
+    "song": "丸ノ内サディスティック",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "586",
+    "song": "吻得太逼真",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "587",
+    "song": "我的世界已坠入爱河",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "588",
+    "song": "我们快出发",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "589",
+    "song": "我要你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "590",
+    "song": "我要我们在一起",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "591",
+    "song": "我最可爱的地方",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "592",
+    "song": "雾里",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "593",
+    "song": "喜欢",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "594",
+    "song": "喜剧之王",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "595",
+    "song": "下一站是你",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "596",
+    "song": "夏雪冬花",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "597",
+    "song": "限定游戏",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "598",
+    "song": "小半",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "599",
+    "song": "小小恋歌",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "600",
+    "song": "心型病毒",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "601",
+    "song": "新航路",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "602",
+    "song": "星期五的早安",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "603",
+    "song": "烟花易冷",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "604",
+    "song": "阳光宅男",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "606",
+    "song": "野子",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "607",
+    "song": "夜曲",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "608",
+    "song": "银の龙の背に乗って",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "609",
+    "song": "樱花草",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "611",
+    "song": "欲于辉夜之城起舞",
+    "singer": ".",
+    "type": [
+      "日文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "612",
+    "song": "再靠近一点点",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "613",
+    "song": "逐渐加快",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "614",
+    "song": "祝福",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "615",
+    "song": "追光者",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "616",
+    "song": "左手右手",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "617",
+    "song": "纯爱解剖概要",
+    "singer": ".",
+    "type": [
+      "中文"
+    ],
+    "notice": ""
+  },
+  {
+    "uid": "618",
+    "song": "十年",
+    "singer": "陈奕迅",
+    "type": [
+      "苦情",
+      "中文"
+    ],
+    "notice": ""
+  }
+]
