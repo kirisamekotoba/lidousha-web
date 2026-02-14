@@ -100,7 +100,11 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
         const sorted = [...filteredSongs].sort((a, b) => a.song.localeCompare(b.song, 'zh-CN'));
 
         sorted.forEach(song => {
-            let firstChar = song.song.charAt(0).toUpperCase();
+            // Trim title to avoid leading spaces causing '#' group
+            const normalizedTitle = song.song.trim();
+            if (!normalizedTitle) return; // Skip empty titles
+
+            let firstChar = normalizedTitle.charAt(0).toUpperCase();
             let groupKey = '#';
 
             // Check if it's A-Z
@@ -250,7 +254,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
 
 
     return (
-        <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 py-10 px-4">
+        <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 py-10 px-4 pb-32"> {/* Added extra bottom padding */}
             <div className="max-w-4xl mx-auto mb-8 text-center relative">
                 <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 mb-2">
                     豆沙宝贝的歌单
@@ -287,7 +291,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
 
             <div className="w-full max-w-4xl mx-auto p-4 relative"> {/* Ensure relative for sticky context */}
                 {/* Combined Sticky Header to prevent overlap */}
-                <div className="sticky top-0 z-20 space-y-2 md:space-y-4 bg-gray-50/95 dark:bg-gray-900/95 backdrop-blur-md pb-2 md:pb-4 pt-2 -mx-4 px-4 shadow-sm transition-all duration-300">
+                <div className="sticky top-0 z-50 space-y-2 md:space-y-4 bg-gray-50/95 dark:bg-gray-900/95 backdrop-blur-md pb-2 md:pb-4 pt-2 -mx-4 px-4 shadow-sm transition-all duration-300">
                     <div className="relative">
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                         <input
@@ -299,12 +303,12 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                         />
                     </div>
                     {/* Tags Container: Horizontal Scroll on mobile, Wrap on Desktop */}
-                    <div className="flex flex-nowrap overflow-x-auto gap-2 pb-1 md:pb-0 md:flex-wrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+                    <div className="flex flex-nowrap overflow-x-auto gap-2 pb-1 md:pb-0 md:flex-wrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] -mx-1 px-1"> {/* Added negative margin to allow scroll to edge */}
                         {allTags.map(tag => (
                             <button
                                 key={tag}
                                 onClick={() => setSelectedTag(tag)}
-                                className={`px-3 py-1 rounded-full text-sm whitespace-nowrap transition-colors ${selectedTag === tag
+                                className={`flex-shrink-0 px-3 py-1 rounded-full text-sm whitespace-nowrap transition-colors ${selectedTag === tag
                                     ? 'bg-blue-500 text-white shadow-md'
                                     : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700'
                                     }`}
