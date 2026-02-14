@@ -17,7 +17,7 @@ export default function SongItem({ song, onSelect, onEdit }: SongItemProps) {
                 <span className="font-medium text-gray-800 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     {song.song} <span className="text-gray-400 mx-1">-</span> <span className="text-gray-600 dark:text-gray-300 text-sm">{song.singer}</span>
                 </span>
-                {song.notice && (
+                {!!song.notice && (
                     <span className="text-xs text-orange-500 mt-1 italic">{song.notice}</span>
                 )}
             </div>

@@ -1,45 +1,79 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
-import { Search, Plus, Download, X } from 'lucide-react';
+import { Search, Plus, X, Loader2 } from 'lucide-react';
 import SongItem from './SongItem';
 import UserProfile from './UserProfile';
 import SongModal from './SongModal';
 import TinyPinyin from 'tiny-pinyin';
 import { useToast } from './Toast';
 import type { Song } from '../types/song';
+import { supabase } from '../lib/supabaseClient';
 
 interface ClientHomeProps {
     initialSongs: Song[];
 }
 
 export default function ClientHome({ initialSongs }: ClientHomeProps) {
-    // Initialize from LocalStorage if available, otherwise use initialSongs
+    // Initialize from LocalStorage if available, otherwise use initialSongs (as fallback/initial)
     const [songs, setSongs] = useState<Song[]>(initialSongs);
     const [hasLoadedFromStorage, setHasLoadedFromStorage] = useState(false);
 
-    // Persistence Logic
-    useEffect(() => {
-        try {
-            const storedSongs = localStorage.getItem('lidousha_songs');
-            if (storedSongs) {
-                const parsed = JSON.parse(storedSongs);
-                if (Array.isArray(parsed) && parsed.length >= initialSongs.length) {
-                    // Only use stored if it seems to correspond to our data (simple heuristic)
-                    setSongs(parsed);
-                }
-            }
-        } catch (e) {
-            console.error("Failed to load songs from storage", e);
-        }
-        setHasLoadedFromStorage(true);
-    }, [initialSongs]); // Depend on initialSongs to ensure we have a baseline
+    // Supabase & Admin State
+    const [isLoading, setIsLoading] = useState(true);
+    const [isAdmin, setIsAdmin] = useState(false);
 
+    // Fetch Songs from Supabase
     useEffect(() => {
-        if (hasLoadedFromStorage) {
-            localStorage.setItem('lidousha_songs', JSON.stringify(songs));
-        }
-    }, [songs, hasLoadedFromStorage]);
+        const fetchSongs = async () => {
+            setIsLoading(true);
+            const { data, error } = await supabase
+                .from('songs')
+                .select('*')
+                .order('created_at', { ascending: false });
+
+            if (error) {
+                console.error('Error fetching songs:', error);
+                showToast('Failed to load songs from cloud.', 3000);
+            } else if (data) {
+                setSongs(data);
+                setHasLoadedFromStorage(true);
+            }
+            setIsLoading(false);
+        };
+
+        fetchSongs();
+
+        // Real-time subscription
+        const channel = supabase
+            .channel('schema-db-changes')
+            .on(
+                'postgres_changes',
+                {
+                    event: '*',
+                    schema: 'public',
+                    table: 'songs',
+                },
+                (payload) => {
+                    if (payload.eventType === 'INSERT') {
+                        setSongs((prev) => [payload.new as Song, ...prev]);
+                    } else if (payload.eventType === 'UPDATE') {
+                        // Type assertion needed because payload.new is Record<string, any>
+                        const updatedSong = payload.new as Song;
+                        setSongs((prev) => prev.map((song) => song.uid === updatedSong.uid ? updatedSong : song));
+                    } else if (payload.eventType === 'DELETE') {
+                        // Type assertion needed because payload.old is Record<string, any>
+                        const deletedSong = payload.old as { uid: string };
+                        setSongs((prev) => prev.filter((song) => song.uid !== deletedSong.uid));
+                    }
+                }
+            )
+            .subscribe();
+
+        return () => {
+            supabase.removeChannel(channel);
+        };
+    }, []);
 
 
     const [filter, setFilter] = useState('');
@@ -113,45 +147,97 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
         showToast(`Copied "点歌 ${song.song}" to clipboard!`, 2000);
     };
 
+    const checkAdmin = () => {
+        if (isAdmin) return true;
+        const password = prompt('Please enter Admin Password to perform this action:');
+        // Simple client-side check against env variable (for this specific low-security fan app)
+        // In a real app, this should be handled by Supabase Auth or RLS with a custom RPC
+        const correctPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
+
+        if (password === correctPassword) {
+            setIsAdmin(true);
+            return true;
+        } else {
+            alert('Incorrect password!');
+            return false;
+        }
+    };
+
     const handleAddSong = () => {
+        if (!checkAdmin()) return;
         setEditingSong(null);
         setIsModalOpen(true);
     };
 
     const handleEditSong = (song: Song) => {
+        if (!checkAdmin()) return;
         setEditingSong(song);
         setIsModalOpen(true);
     };
 
-    const handleSaveSong = (song: Song) => {
+    const handleSaveSong = async (song: Song) => {
+        // Optimistic update handled by Subscription if real-time is fast, 
+        // but for better UX we can wait or optimistic update local state too.
+        // Let's rely on local + subscription sync or just wait.
+        // Actually, for "Add", we don't have UID yet if it's new. 
+        // The modal returns a Song object which might have a temporary UID or empty.
+
+        const songToSave = {
+            song: song.song,
+            singer: song.singer,
+            type: song.type,
+            notice: song.notice || '',
+            // created_at is handled by DB default
+        };
+
         if (editingSong) {
-            // Update existing
-            setSongs(prev => prev.map(s => s.uid === song.uid ? song : s));
-            showToast('Song updated successfully!');
+            // Update
+            const { error } = await supabase
+                .from('songs')
+                .update(songToSave)
+                .eq('uid', song.uid);
+
+            if (error) {
+                console.error('Error updating song:', error);
+                showToast('Failed to update song.');
+            } else {
+                showToast('Song updated successfully!');
+            }
         } else {
-            // Add new
-            setSongs(prev => [song, ...prev]);
-            showToast('New song added!');
+            // Create
+            const { error } = await supabase
+                .from('songs')
+                .insert([songToSave]);
+
+            if (error) {
+                console.error('Error creating song:', error);
+                showToast('Failed to add song.');
+            } else {
+                showToast('Song added successfully!');
+            }
         }
         setIsModalOpen(false);
     };
 
-    const handleDeleteSong = (uid: string) => {
-        setSongs(prev => prev.filter(s => s.uid !== uid));
-        showToast('Song deleted successfully!');
+    const handleDeleteSong = async (uid: string) => {
+        if (!checkAdmin()) return;
+        if (!confirm('Are you sure you want to delete this song?')) return;
+
+        const { error } = await supabase
+            .from('songs')
+            .delete()
+            .eq('uid', uid);
+
+        if (error) {
+            console.error('Error deleting song:', error);
+            showToast('Failed to delete song.');
+        } else {
+            showToast('Song deleted successfully!');
+        }
         setIsModalOpen(false);
     };
 
-    const handleDownloadJson = () => {
-        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(songs, null, 2));
-        const downloadAnchorNode = document.createElement('a');
-        downloadAnchorNode.setAttribute("href", dataStr);
-        downloadAnchorNode.setAttribute("download", "songs.json");
-        document.body.appendChild(downloadAnchorNode);
-        downloadAnchorNode.click();
-        downloadAnchorNode.remove();
-        showToast('Downloaded songs.json. Commit this to GitHub to save changes permanently.', 5000);
-    };
+
 
     return (
         <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 py-10 px-4">
@@ -162,6 +248,12 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                 <p className="text-gray-600 dark:text-gray-400 mb-6">
                     A curated collection of {songs.length} songs.
                 </p>
+                {isLoading && (
+                    <div className="flex justify-center mb-4">
+                        <Loader2 className="animate-spin text-blue-500" />
+                        <span className="ml-2 text-gray-500">Loading from cloud...</span>
+                    </div>
+                )}
 
                 <UserProfile />
 
@@ -173,13 +265,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                         <Plus size={18} />
                         添加歌曲
                     </button>
-                    <button
-                        onClick={handleDownloadJson}
-                        className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors shadow-sm border border-gray-200 dark:border-gray-700 text-sm"
-                    >
-                        <Download size={16} />
-                        导出 JSON
-                    </button>
+
                     <button
                         onClick={() => setIsTipsOpen(true)}
                         className="flex items-center gap-2 px-4 py-2 bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-300 rounded-lg hover:bg-pink-200 dark:hover:bg-pink-900/50 transition-colors shadow-sm font-medium text-sm"
