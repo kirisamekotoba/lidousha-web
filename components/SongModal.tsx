@@ -58,7 +58,10 @@ export default function SongModal({ isOpen, onClose, onSave, onDelete, initialSo
             setFormData(initialSong);
         } else {
             setFormData({
-                uid: crypto.randomUUID(),
+                import { generateUUID } from '../lib/utils'; // Ensure this import is added at the top
+
+                // ... inside the component
+                uid: generateUUID(),
                 song: '',
                 singer: '',
                 type: ['全部'],
