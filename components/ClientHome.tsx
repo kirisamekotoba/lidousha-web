@@ -159,7 +159,9 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
             setIsAdmin(true);
             return true;
         } else {
-            alert('Incorrect password!');
+            const debugLength = correctPassword ? correctPassword.length : '0';
+            const debugExists = !!correctPassword;
+            alert(`Incorrect password! (Debug: Server Secret Length: ${debugLength}, Exists: ${debugExists})`);
             return false;
         }
     };
