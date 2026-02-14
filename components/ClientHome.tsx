@@ -106,7 +106,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
             // Check if it's A-Z
             if (/[A-Z]/.test(firstChar)) {
                 groupKey = firstChar;
-            } else if (TinyPinyin.isSupported() && !/[0-9]/.test(firstChar)) { // Simple check if it might be Chinese
+            } else if (!/[0-9]/.test(firstChar)) { // Simple check if it might be Chinese (Removed isSupported check)
                 const pinyin = TinyPinyin.convertToPinyin(firstChar); // Returns string like 'ZHONG'
                 const pinyinChar = pinyin.charAt(0).toUpperCase();
                 if (/[A-Z]/.test(pinyinChar)) {
@@ -131,7 +131,14 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
     const scrollToGroup = (key: string) => {
         const element = document.getElementById(`group-${key}`);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            // Adjust scroll position for sticky header
+            const headerOffset = 180; // Approximate height of sticky header on mobile
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
         }
     };
 
@@ -280,7 +287,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
 
             <div className="w-full max-w-4xl mx-auto p-4 relative"> {/* Ensure relative for sticky context */}
                 {/* Combined Sticky Header to prevent overlap */}
-                <div className="sticky top-0 z-20 space-y-4 bg-gray-50/95 dark:bg-gray-900/95 backdrop-blur-md pb-4 pt-2 -mx-4 px-4 shadow-sm">
+                <div className="sticky top-0 z-20 space-y-2 md:space-y-4 bg-gray-50/95 dark:bg-gray-900/95 backdrop-blur-md pb-2 md:pb-4 pt-2 -mx-4 px-4 shadow-sm transition-all duration-300">
                     <div className="relative">
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                         <input
@@ -291,12 +298,13 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                             onChange={(e) => setFilter(e.target.value)}
                         />
                     </div>
-                    <div className="flex flex-wrap gap-2">
+                    {/* Tags Container: Horizontal Scroll on mobile, Wrap on Desktop */}
+                    <div className="flex flex-nowrap overflow-x-auto gap-2 pb-1 md:pb-0 md:flex-wrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                         {allTags.map(tag => (
                             <button
                                 key={tag}
                                 onClick={() => setSelectedTag(tag)}
-                                className={`px-3 py-1 rounded-full text-sm transition-colors ${selectedTag === tag
+                                className={`px-3 py-1 rounded-full text-sm whitespace-nowrap transition-colors ${selectedTag === tag
                                     ? 'bg-blue-500 text-white shadow-md'
                                     : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700'
                                     }`}
@@ -305,13 +313,13 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
                             </button>
                         ))}
                     </div>
-                    {/* Rapid Positioning Bar inside the same sticky container */}
-                    <div className="flex justify-center flex-wrap gap-1 px-2 border-t border-gray-100 dark:border-gray-800 pt-2">
+                    {/* Rapid Positioning Bar: Horizontal Scroll on mobile, Centered Wrap on Desktop */}
+                    <div className="flex flex-nowrap overflow-x-auto gap-1 px-1 border-t border-gray-100 dark:border-gray-800 pt-2 pb-1 md:pb-0 justify-start md:justify-center md:flex-wrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                         {sortedKeys.map(key => (
                             <button
                                 key={key}
                                 onClick={() => scrollToGroup(key)}
-                                className="w-6 h-6 text-xs font-bold rounded-full bg-white dark:bg-gray-800 text-blue-600 shadow-sm hover:bg-blue-100 dark:hover:bg-gray-700 transition-colors border border-gray-100 dark:border-gray-700"
+                                className="flex-shrink-0 w-8 h-8 md:w-6 md:h-6 text-sm md:text-xs font-bold rounded-full bg-white dark:bg-gray-800 text-blue-600 shadow-sm hover:bg-blue-100 dark:hover:bg-gray-700 transition-colors border border-gray-100 dark:border-gray-700 flex items-center justify-center"
                             >
                                 {key}
                             </button>
