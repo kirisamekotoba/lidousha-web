@@ -47,9 +47,6 @@ export default function UserProfile() {
                     alt={name}
                     className="rounded-full object-cover border-4 border-white dark:border-gray-700 shadow-md w-full h-full"
                 />
-                <div className="absolute bottom-0 right-0 bg-blue-500 text-white text-xs px-2 py-0.5 rounded-full border-2 border-white dark:border-gray-800">
-                    Lv.{level}
-                </div>
             </div>
 
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
@@ -59,17 +56,6 @@ export default function UserProfile() {
             <p className="text-gray-500 dark:text-gray-400 text-sm mb-4 text-center max-w-md">
                 {sign}
             </p>
-
-            <div className="flex gap-8 text-center">
-                <div>
-                    <div className="font-bold text-gray-900 dark:text-white">{content.following}</div>
-                    <div className="text-xs text-gray-500 uppercase tracking-wide">Following</div>
-                </div>
-                <div>
-                    <div className="font-bold text-gray-900 dark:text-white">{content.follower}</div>
-                    <div className="text-xs text-gray-500 uppercase tracking-wide">Followers</div>
-                </div>
-            </div>
         </div>
     );
 }
