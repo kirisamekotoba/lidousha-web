@@ -153,6 +153,7 @@ export default function ClientHome({ initialSongs }: ClientHomeProps) {
         // Simple client-side check against env variable (for this specific low-security fan app)
         // In a real app, this should be handled by Supabase Auth or RLS with a custom RPC
         const correctPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
+        console.log('Debug: checking password. Env var length:', correctPassword?.length, 'Value exists:', !!correctPassword);
 
         if (password === correctPassword) {
             setIsAdmin(true);
