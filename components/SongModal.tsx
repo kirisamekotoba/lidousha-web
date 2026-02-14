@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { X, Save, Plus } from 'lucide-react';
+import { generateUUID } from '../lib/utils';
 import type { Song } from '../types/song';
 
 interface SongModalProps {
@@ -58,9 +59,6 @@ export default function SongModal({ isOpen, onClose, onSave, onDelete, initialSo
             setFormData(initialSong);
         } else {
             setFormData({
-                import { generateUUID } from '../lib/utils'; // Ensure this import is added at the top
-
-                // ... inside the component
                 uid: generateUUID(),
                 song: '',
                 singer: '',
